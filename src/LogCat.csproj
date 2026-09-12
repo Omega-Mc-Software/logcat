@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>LogCat</AssemblyName>
+    <RootNamespace>LogCat</RootNamespace>
+    <Version>0.1.3</Version>
+    <Product>LogCat</Product>
+    <AssemblyTitle>LogCat</AssemblyTitle>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Description>Keyboard-first daily log. Plain markdown files, one per day. By Neko Omega.</Description>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DebugType>none</DebugType>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+</Project>
