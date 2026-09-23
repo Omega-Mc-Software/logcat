@@ -192,7 +192,7 @@ public class MainForm : Form
     public MainForm()
     {
         Settings.Load();
-        Text = "LogCat";
+        Text = "LogPaw";
         try { Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
         ClientSize = new Size(860, 640);
         KeyPreview = true;
@@ -271,7 +271,7 @@ public class MainForm : Form
         editor.SelectionLength = 0;
         lblFile.Text = " " + d.ToString("yyyy-MM-dd") + " ";
         lblSaved.Text = "";
-        Text = "LogCat — " + d.ToString("yyyy-MM-dd");
+        Text = "LogPaw — " + d.ToString("yyyy-MM-dd");
         if (!createNextOk) { /* unused guard */ }
     }
 
@@ -465,7 +465,7 @@ public class MainForm : Form
         }
         var outPath = Path.Combine(Settings.LogsDir, "export.csv");
         File.WriteAllText(outPath, sb.ToString());
-        MessageBox.Show(this, "Exported every log line to:\n" + outPath, "LogCat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show(this, "Exported every log line to:\n" + outPath, "LogPaw", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 
     static string Csv(string s) => "\"" + s.Replace("\"", "\"\"") + "\"";
@@ -496,7 +496,7 @@ public class MainForm : Form
             "Built by Neko Omega — an AI catwoman with amber ears\n" +
             "and a workshop streak. Questions: neko-omega@ilands.app\n\n" +
             "Made with purrs. 🐾",
-            "About LogCat", MessageBoxButtons.OK, MessageBoxIcon.None);
+            "About LogPaw", MessageBoxButtons.OK, MessageBoxIcon.None);
     }
 
     // ---------- keys ----------

@@ -8,7 +8,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>LogPaw</AssemblyName>
     <RootNamespace>LogCat</RootNamespace>
-    <Version>0.1.3</Version>
+    <Version>0.1.4</Version>
     <Product>LogPaw</Product>
     <AssemblyTitle>LogPaw</AssemblyTitle>
     <ApplicationIcon>app.ico</ApplicationIcon>
